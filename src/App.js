@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import './app.css'
+
+//components
 import Header from './components/Header.js';
 import Sidebar from './components/Sidebar.js';
 import Home from './components/Home.js';
@@ -15,7 +18,7 @@ export default ()=> {
     <Router>
       <div className="app">
         <Sidebar />
-        <div className="app__content">
+        <div className="app-content">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

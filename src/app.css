@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    background-color: #080404;
+    color: #fff;
+}
+.app-content{
+    display: inline-block;
+}
